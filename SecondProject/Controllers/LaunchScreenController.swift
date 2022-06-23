@@ -22,7 +22,7 @@ class LaunchScreenController: UIViewController {
         myLottieAnim.animationSpeed = 0.5
         myLottieAnim.play(fromProgress: 0, toProgress: 1, loopMode: .repeat(3), completion: {_ in
             print("finished anim")
-            let hostingController = UIHostingController(rootView: AfterCombine().navigationBarHidden(true))
+            let hostingController = UIHostingController(rootView: ExampleSheetsAndAlert().navigationBarHidden(true))
             self.navigationController?.pushViewController(hostingController, animated: true)
            
            

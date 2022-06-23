@@ -117,7 +117,7 @@ struct MyButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
             .scaleEffect(configuration.isPressed ? CGFloat(0.85) : 1.0)
-            .animation(Animation.spring(response: 0.35, dampingFraction: 0.35, blendDuration: 1), value: configuration.isPressed)
+            .animation(Animation.spring(response: 0.35, dampingFraction: 0.35), value: configuration.isPressed)
     }
 }
 

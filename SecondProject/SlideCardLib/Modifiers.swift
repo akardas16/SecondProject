@@ -28,9 +28,41 @@ extension View {
                 content(item)
             }
         })
+        
+        /*
+         // This uses a binding to an optional object in a switch statement
+         .slideOverCard(item: $activeCard) { item in
+             switch item {
+                 case .welcomeView:
+                     WelcomeView()
+                 case .loginView:
+                     LoginView()
+                 default:
+                     ..........
+             }
+         }
+         */
+        
     }
     
- 
+    public func showPopUpAlert<Content: View>(isShown:Binding<Bool> , @ViewBuilder content: @escaping () -> Content) -> some View {
+        return ZStack{
+            self
+            PopUpAlert(isShown: isShown) {
+                content()
+            }
+        }
+    }
     
 
+    public func showModalSheet<Content: View>(isPresented: Binding<Bool>,backgroundMaterial: Material,heightAmount:CGFloat,@ViewBuilder content: @escaping () -> Content) -> some View{
+        return ZStack {
+            self
+            ModalSheet(isShowing: isPresented, backgroundMaterial: backgroundMaterial,heightAmount: heightAmount) {
+                content()
+            }
+        }
+    }
+    
+    
 }

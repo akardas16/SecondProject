@@ -54,7 +54,7 @@ public struct SlideOverCard<Content: View>: View {
                 }.transition(isiPad ? AnyTransition.opacity.combined(with: .offset(x: 0, y: 200)) : .move(edge: .bottom))
                     .zIndex(2)
             }
-        }
+        }.animation(.spring(response: 0.35, dampingFraction: 1),value: isPresented.wrappedValue)
     }
     
     private var container: some View {
@@ -77,7 +77,7 @@ public struct SlideOverCard<Content: View>: View {
             }.frame(maxWidth: .infinity,alignment: .center)
             if !options.contains(.hideExitButton) {
                 Button(action: dismiss) {
-                    SliderExitButton()
+                    ExitBtn()
                 }.frame(width: 24, height: 24)
             }
           

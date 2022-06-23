@@ -9,7 +9,7 @@ import SwiftUI
 
 
 
-public struct SliderExitButton: View {
+public struct ExitBtn: View {
     @Environment(\.colorScheme) var colorScheme
     
     public var body: some View {
@@ -30,7 +30,7 @@ struct Acessories_Previews: PreviewProvider {
     static var previews: some View {
         Group {
            
-            SliderExitButton()
+            ExitBtn()
         }.previewLayout(.sizeThatFits)
     }
 }

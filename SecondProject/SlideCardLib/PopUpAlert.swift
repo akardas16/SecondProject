@@ -14,7 +14,7 @@ struct AlertContent<Content:View>:View {
     }
 }
 
-struct CustomAlert<Content:View>: View {
+struct PopUpAlert<Content:View>: View {
     @Binding var isShown: Bool
     let content:Content
     
@@ -50,7 +50,7 @@ struct CustomAlert<Content:View>: View {
 struct CustomAlert_Previews: PreviewProvider {
     static var previews: some View {
       
-        CustomAlert(isShown: .constant(true)) {
+        PopUpAlert(isShown: .constant(true)) {
             VStack{
 Text("Title").font(.title).foregroundColor(.white)
 Text("describtion").foregroundColor(.white)
