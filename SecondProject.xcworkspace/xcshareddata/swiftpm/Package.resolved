@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "panmodal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/slackhq/PanModal.git",
+      "state" : {
+        "revision" : "b012aecb6b67a8e46369227f893c12544846613f",
+        "version" : "1.2.7"
+      }
+    },
+    {
       "identity" : "sdwebimage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",
@@ -34,15 +43,6 @@
       "state" : {
         "branch" : "master",
         "revision" : "336d3f6d3b53729c1f274bf6b75f4532ada116eb"
-      }
-    },
-    {
-      "identity" : "slideovercard",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/joogps/SlideOverCard.git",
-      "state" : {
-        "revision" : "ddafedae02dc5423aa872b274d9011412dc4837f",
-        "version" : "2.0.0"
       }
     }
   ],

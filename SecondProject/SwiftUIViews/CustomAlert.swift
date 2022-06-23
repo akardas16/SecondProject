@@ -24,20 +24,17 @@ struct CustomAlert<Content:View>: View {
     }
     var body: some View {
         GeometryReader{geometry in
-            ZStack(alignment:.bottom){
+            ZStack(alignment:.center){
                 if isShown {
                     Blur(style: .dark).ignoresSafeArea().animation(.none, value: isShown)
                     content
                     .padding()
                     .frame(width: geometry.size.width * 0.85)
-                    //.background(Color(#colorLiteral(red: 0.9268686175, green: 0.9416290522, blue: 0.9456014037, alphaColor("myColor1"): 1)))
                     .background(.ultraThinMaterial)
                     .clipShape(RoundedRectangle(cornerRadius: 20.0, style: .continuous))
-                    //.offset(x: isShown ? 0 : 400, y: 0)
+              
                     
                 }
-                //Color.black.opacity(0.6).ignoresSafeArea()
-                
                
             }.frame(maxWidth:.infinity).frame(maxHeight:.infinity)
                 .transition(AnyTransition.scale(scale: isShown ? 1 : 0.8).animation(.spring()))

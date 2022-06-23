@@ -17,7 +17,7 @@ struct ModalSheet: View {
     var maxHeight:CGFloat = 410
     
     let startOpacity:Double = 0.6
-    let endOpacity:Double = 0.7
+    let endOpacity:Double = 0.65
     
     var dragPercentage:Double {
         let res = Double((curHeight - minHeight) / (maxHeight - minHeight))

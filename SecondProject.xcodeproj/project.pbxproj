@@ -10,6 +10,7 @@
 		8E02ADAC94819CC8851EEC87 /* Pods_SecondProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10420B2B89225410EE253C78 /* Pods_SecondProject.framework */; };
 		BE2082C8283A648800BDCC44 /* AfterCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2082C7283A648800BDCC44 /* AfterCombine.swift */; };
 		BE264A07282C23BB00D2448B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BE264A06282C23BB00D2448B /* SDWebImageSwiftUI */; };
+		BE2DE01B2863B152003FB6CA /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = BE2DE01A2863B152003FB6CA /* PanModal */; };
 		BE30B29E28095EA70053F0DB /* FirstSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE30B29D28095EA70053F0DB /* FirstSwiftUIView.swift */; };
 		BE42096328157385002519E9 /* LoadingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42096228157385002519E9 /* LoadingAlert.swift */; };
 		BE4458192811D9F8005FB485 /* AnimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4458182811D9F8005FB485 /* AnimView.swift */; };
@@ -39,6 +40,11 @@
 		BE55AD662800AA8300869DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE55AD652800AA8300869DBB /* Assets.xcassets */; };
 		BE55AD742800B62C00869DBB /* LottieLaunch.json in Resources */ = {isa = PBXBuildFile; fileRef = BE55AD732800B62B00869DBB /* LottieLaunch.json */; };
 		BE55AD772800D7CA00869DBB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55AD762800D7CA00869DBB /* MainViewController.swift */; };
+		BE5FCE2428647FFC0059C2A3 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5FCE1F28647FFC0059C2A3 /* Manager.swift */; };
+		BE5FCE2528647FFC0059C2A3 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5FCE2028647FFC0059C2A3 /* SlideOverCard.swift */; };
+		BE5FCE2628647FFC0059C2A3 /* SlideOverCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5FCE2128647FFC0059C2A3 /* SlideOverCardView.swift */; };
+		BE5FCE2728647FFC0059C2A3 /* Accessories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5FCE2228647FFC0059C2A3 /* Accessories.swift */; };
+		BE5FCE2828647FFC0059C2A3 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5FCE2328647FFC0059C2A3 /* Modifiers.swift */; };
 		BE6457462805F4DD006CE442 /* SignUpVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6457452805F4DD006CE442 /* SignUpVController.swift */; };
 		BE645748280601F8006CE442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE645747280601F8006CE442 /* GoogleService-Info.plist */; };
 		BE66B2FE280D547B0071E72F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66B2FD280D547B0071E72F /* ContentView.swift */; };
@@ -46,7 +52,6 @@
 		BE6B048A280A2EC3001ABFDC /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = BE6B0489280A2EC3001ABFDC /* AlertToast */; };
 		BE76233C281349DF00C27300 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76233B281349DF00C27300 /* Gradients.swift */; };
 		BE78CDEF28140AF200A8D1AF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78CDEE28140AF200A8D1AF /* LoginPage.swift */; };
-		BE848AC5282E6CAC007F4017 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = BE848AC4282E6CAC007F4017 /* SlideOverCard */; };
 		BE8E47E428109047008E2494 /* PageViewOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E47E328109047008E2494 /* PageViewOnBoarding.swift */; };
 		BE8E47E82810AB02008E2494 /* onboarding3.json in Resources */ = {isa = PBXBuildFile; fileRef = BE8E47E52810AB02008E2494 /* onboarding3.json */; };
 		BE8E47E92810AB02008E2494 /* onboarding1.json in Resources */ = {isa = PBXBuildFile; fileRef = BE8E47E62810AB02008E2494 /* onboarding1.json */; };
@@ -100,6 +105,11 @@
 		BE55AD6A2800AA8300869DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE55AD732800B62B00869DBB /* LottieLaunch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLaunch.json; sourceTree = "<group>"; };
 		BE55AD762800D7CA00869DBB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BE5FCE1F28647FFC0059C2A3 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		BE5FCE2028647FFC0059C2A3 /* SlideOverCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
+		BE5FCE2128647FFC0059C2A3 /* SlideOverCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOverCardView.swift; sourceTree = "<group>"; };
+		BE5FCE2228647FFC0059C2A3 /* Accessories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessories.swift; sourceTree = "<group>"; };
+		BE5FCE2328647FFC0059C2A3 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		BE6457452805F4DD006CE442 /* SignUpVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVController.swift; sourceTree = "<group>"; };
 		BE645747280601F8006CE442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BE66B2FD280D547B0071E72F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,8 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE848AC5282E6CAC007F4017 /* SlideOverCard in Frameworks */,
 				BE264A07282C23BB00D2448B /* SDWebImageSwiftUI in Frameworks */,
+				BE2DE01B2863B152003FB6CA /* PanModal in Frameworks */,
 				8E02ADAC94819CC8851EEC87 /* Pods_SecondProject.framework in Frameworks */,
 				BE4B3E4E280ABD6100EB8896 /* LoadingButton in Frameworks */,
 				BE6B048A280A2EC3001ABFDC /* AlertToast in Frameworks */,
@@ -206,6 +216,7 @@
 		BE55AD5B2800AA8100869DBB /* SecondProject */ = {
 			isa = PBXGroup;
 			children = (
+				BE5FCE1E28647FDC0059C2A3 /* SlideCardLib */,
 				BEE89F71282EE11C0031C74E /* Sounds */,
 				BE4B3397281E91BA00EA1FE0 /* BottomBarNav */,
 				BE30B29C28095E750053F0DB /* SwiftUIViews */,
@@ -256,6 +267,18 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		BE5FCE1E28647FDC0059C2A3 /* SlideCardLib */ = {
+			isa = PBXGroup;
+			children = (
+				BE5FCE2228647FFC0059C2A3 /* Accessories.swift */,
+				BE5FCE1F28647FFC0059C2A3 /* Manager.swift */,
+				BE5FCE2328647FFC0059C2A3 /* Modifiers.swift */,
+				BE5FCE2028647FFC0059C2A3 /* SlideOverCard.swift */,
+				BE5FCE2128647FFC0059C2A3 /* SlideOverCardView.swift */,
+			);
+			path = SlideCardLib;
+			sourceTree = "<group>";
+		};
 		BEE89F71282EE11C0031C74E /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,7 +327,7 @@
 				BE6B0489280A2EC3001ABFDC /* AlertToast */,
 				BE4B3E4D280ABD6100EB8896 /* LoadingButton */,
 				BE264A06282C23BB00D2448B /* SDWebImageSwiftUI */,
-				BE848AC4282E6CAC007F4017 /* SlideOverCard */,
+				BE2DE01A2863B152003FB6CA /* PanModal */,
 			);
 			productName = SecondProject;
 			productReference = BE55AD592800AA8100869DBB /* SecondProject.app */;
@@ -338,7 +361,7 @@
 				BE6B0488280A2EC3001ABFDC /* XCRemoteSwiftPackageReference "AlertToast" */,
 				BE4B3E4C280ABD6100EB8896 /* XCRemoteSwiftPackageReference "LoadingButton" */,
 				BE264A05282C23BB00D2448B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				BE848AC3282E6CAC007F4017 /* XCRemoteSwiftPackageReference "SlideOverCard" */,
+				BE2DE0192863B152003FB6CA /* XCRemoteSwiftPackageReference "PanModal" */,
 			);
 			productRefGroup = BE55AD5A2800AA8100869DBB /* Products */;
 			projectDirPath = "";
@@ -424,7 +447,9 @@
 				BE4B339D281E91D900EA1FE0 /* BottomBarItem.swift in Sources */,
 				BE6457462805F4DD006CE442 /* SignUpVController.swift in Sources */,
 				BE6B04872809F63F001ABFDC /* SecondSwiftUI.swift in Sources */,
+				BE5FCE2628647FFC0059C2A3 /* SlideOverCardView.swift in Sources */,
 				BE55AD5D2800AA8100869DBB /* AppDelegate.swift in Sources */,
+				BE5FCE2428647FFC0059C2A3 /* Manager.swift in Sources */,
 				BEEDCC672817254F005E028B /* Video.swift in Sources */,
 				BE30B29E28095EA70053F0DB /* FirstSwiftUIView.swift in Sources */,
 				BE4C80662801B2FA0056B1EE /* LoadingShimmer.swift in Sources */,
@@ -434,6 +459,7 @@
 				BE78CDEF28140AF200A8D1AF /* LoginPage.swift in Sources */,
 				BE468CBF280C27F00060149B /* ThirdSwiftUI.swift in Sources */,
 				BE66B2FE280D547B0071E72F /* ContentView.swift in Sources */,
+				BE5FCE2828647FFC0059C2A3 /* Modifiers.swift in Sources */,
 				BEF5ED08280B0721006D0BE5 /* CustomAlertController.swift in Sources */,
 				BE4B3399281E91CE00EA1FE0 /* BottomBarItemView.swift in Sources */,
 				BE76233C281349DF00C27300 /* Gradients.swift in Sources */,
@@ -445,11 +471,13 @@
 				BE4B33A1281E92D900EA1FE0 /* MyNavView.swift in Sources */,
 				BEEDCC6B2817403B005E028B /* VideoDetailView.swift in Sources */,
 				BEF5ED0A280B0FC4006D0BE5 /* Extensions.swift in Sources */,
+				BE5FCE2528647FFC0059C2A3 /* SlideOverCard.swift in Sources */,
 				BE4458192811D9F8005FB485 /* AnimView.swift in Sources */,
 				BEA36DC6284FCF3100DA4295 /* SpecialAlert.swift in Sources */,
 				BE468CC1280C71860060149B /* AZAlert.swift in Sources */,
 				BE4EC00528204C16003455D2 /* SwiftUITest.swift in Sources */,
 				BE55AD5F2800AA8100869DBB /* SceneDelegate.swift in Sources */,
+				BE5FCE2728647FFC0059C2A3 /* Accessories.swift in Sources */,
 				BE4A0EA028036CFB000686F4 /* LoginVController.swift in Sources */,
 				BE55AD772800D7CA00869DBB /* MainViewController.swift in Sources */,
 				BE4C80682801DAE90056B1EE /* OnBoardingControllerView.swift in Sources */,
@@ -680,6 +708,14 @@
 				kind = branch;
 			};
 		};
+		BE2DE0192863B152003FB6CA /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.7;
+			};
+		};
 		BE4B3E4C280ABD6100EB8896 /* XCRemoteSwiftPackageReference "LoadingButton" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Changemin/LoadingButton";
@@ -696,14 +732,6 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		BE848AC3282E6CAC007F4017 /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/joogps/SlideOverCard.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -711,6 +739,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BE264A05282C23BB00D2448B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		BE2DE01A2863B152003FB6CA /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2DE0192863B152003FB6CA /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
 		};
 		BE4B3E4D280ABD6100EB8896 /* LoadingButton */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -721,11 +754,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BE6B0488280A2EC3001ABFDC /* XCRemoteSwiftPackageReference "AlertToast" */;
 			productName = AlertToast;
-		};
-		BE848AC4282E6CAC007F4017 /* SlideOverCard */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BE848AC3282E6CAC007F4017 /* XCRemoteSwiftPackageReference "SlideOverCard" */;
-			productName = SlideOverCard;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

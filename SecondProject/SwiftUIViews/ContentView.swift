@@ -9,7 +9,7 @@
 import SwiftUI
 import UIKit
 import Lottie
-import SlideOverCard
+
 
 struct ContentView: View {
     
@@ -20,6 +20,8 @@ struct ContentView: View {
     @State private var isShowModalSheet: Bool = false
     
     @State private var showSheet:Bool = false
+    
+    @State var showSoc:Bool = false
     
     @Environment(\.scenePhase) var scenePhase
     
@@ -42,8 +44,7 @@ struct ContentView: View {
                    
                     Spacer()
                     Spacer()
-                    Spacer()
-                    Spacer()
+                  
                     Button("Show Alert") {
                         self.text = ""
                         //self.isPresented = true
@@ -68,26 +69,39 @@ struct ContentView: View {
                 AZAlert(title: "Add Item", isShown: $isPresented, text: $text, onDone: { text in
                     
                 })
-//                CustomAlert(imageName: "info.circle.fill", message: "Hello how is going in your life", isShown: $isCustomShowing) {
-//                    print("on Done clicked")
-//                } onCancel: {
-//                    print("on Cancel clicked")
-//
-//                }
+                
+               
+                CustomAlert(isShown: $isCustomShowing) {
+                    VStack(spacing: 32){
+                        Text("Info").font(.title).bold().foregroundColor(.white)
+                        Text("How do I change the code above to work with UIWindowScene instead?").foregroundColor(.white)
+                        Button {
+                            isCustomShowing.toggle()
+                         
+                        } label: {
+                            Text("Close").frame(maxWidth:.infinity).frame(height:50).background(.red).cornerRadius(25).foregroundColor(.white).padding(.horizontal,32)
+                        }.disabled(isPresented).buttonStyle(MyButtonStyle())
+                    
+                    }
+                }
                 
                 ModalSheet(isShowing: $isShowModalSheet, backgroundMaterial: .ultraThin)
 
+                SlideOverCard(isPresented: $showSheet,options: [.hideExitButton],backgroundColor: .cyan,useMaterialColor: true,backgroundMaterial: .ultraThinMaterial) {
+                       // Here goes your super-duper cool screen
+                    VStack{
+                        Text("Hello guys").foregroundColor(.white).bold().font(.title)
+                        Spacer()
+                        Text("Hello guys").foregroundColor(.white)
+                        Text("Hello guys").foregroundColor(.white)
+                    }.frame(maxWidth: .infinity).frame(height: 400)
+                }.animation(.spring(response: 0.35, dampingFraction: 1),value: showSheet)
                 
-            }.slideOverCard(isPresented: $showSheet, options: [.hideExitButton]) {
-                VStack{
-                    Text("Hello guys").foregroundColor(.primary).bold().font(.title)
-                    Spacer()
-                    Text("Hello guys")
-                    Text("Hello guys")
-                }.frame(maxWidth:.infinity).frame(height:400)
+           
+                
             }
             
-       
+        
       
         
     }
